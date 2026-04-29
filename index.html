@@ -2465,16 +2465,16 @@ and quite simply unstoppable.
         var dragStartAngle = 0;
 
         // Detect mobile
-        // var isMobile = window.innerWidth <= 768;
-        // if (isMobile) radius = 280;
         var radius = 420;
+        var isMobile = window.innerWidth <= 768;
+        if (isMobile) radius = 280;
 
 // Detect mobile
-var isMobile = window.innerWidth <= 768;
+// var isMobile = window.innerWidth <= 768;
 
-if (isMobile) {
-  radius = 200;
-}
+// if (isMobile) {
+//   radius = 200;
+// }
 
         // Build cards
         galleryData.forEach(function (item, i) {
